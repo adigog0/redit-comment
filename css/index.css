@@ -1,0 +1,49 @@
+.main-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 1rem;
+}
+.post-container {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.comment-post {
+  background-color: rgb(226, 245, 241);
+  color: black;
+  border-radius: 10px;
+  padding: .5rem;
+}
+
+.post {
+  text-align: center;
+}
+.comment-wrap-div {
+  margin-left: var(--indent);
+  margin-top: 0.5rem;
+  /* text-align: left; */
+}
+.add-comment {
+  margin-top: 0.5rem;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+/* .commentform {
+  border:1px solid black;
+  display: flex
+} */
+.textarea {
+  border-radius: 9px;
+}
+.warning{
+  color:red;
+}
+
+.form-submit-button{
+  margin-top: .2rem;
+}
+
+
+/* .reply-container{
+    text-align: right;
+} */
